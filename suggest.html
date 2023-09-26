@@ -4,13 +4,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1><a href="index.html">Recipes World</a> </h1>
-        <!-- NAV BAR -->
-        <ul class="nav">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="suggest.html">Suggest</a></li>
-        </ul>
-        <h2>Suggest</h2>
+        <div class="top-menu">
+            <div class="menu">
+                <img style="width: 7.5%;" src="img/logo.png" alt="">
+                <ul class="nav">
+                    <a href="home.html"><li>Home</li> </a>
+                    <a href="recipes.html"><li>Recipes</li> </a>
+                    <a href="suggest.html"><li>Suggest</li> </a>
+                </ul>
+            </div>
+        </div>
+        <h1>Recipes World</h1>
+        <div>
+            <form class="form" name="suggest" method="metodo di invio" action="">
+                <label for=""><h4>Suggest recipe</h4> </label>
+                <textarea placeholder="Suggest here..." cols="30" rows="10"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+        
     </body>
 </html>
